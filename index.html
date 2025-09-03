@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$NAPPED — Nap-first meme coin</title>
+  <meta name="description" content="$NAPPED is the super-cozy meme coin that embraces naps over market chaos." />
+  <meta property="og:title" content="$NAPPED — Nap-first meme coin" />
+  <meta property="og:description" content="When the market is wild, the smartest move is a nap. Join $NAPPED." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="image.png" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛏️</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: { preflight: false },
+      theme: {
+        extend: {
+          colors: {
+            cozy: {
+              bg: '#0e0f14',
+              panel: '#161824',
+              text: '#e7ecf3',
+              muted: '#b8c1d4',
+              primary: '#a5c7ff',
+              accent: '#ffc6d9',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-wrap">
+    <img class="bg-image day" src="image_desk.png" alt="Cozy desk day scene" />
+    <img class="bg-image night" src="image_night.png" alt="Cozy night scene" />
+    <div class="bg-fade"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <span class="logo">😴</span>
+        <span class="name">$NAPPED</span>
+      </div>
+      <nav class="nav">
+        <a href="#story">Story</a>
+        <a href="#vibes">Vibes</a>
+        <a href="#how">How to join</a>
+        <button id="themeToggle" class="btn btn-ghost theme-switch" aria-label="Toggle theme">
+          <span class="switch-track" aria-hidden="true">
+            <span class="icon sun">☀️</span>
+            <span class="icon moon">🌙</span>
+            <span class="knob"></span>
+          </span>
+          <span class="switch-label">Switch</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" data-reveal data-delay="0.05s">
+      <div class="container">
+        <div class="hero-content">
+          <h1>When in doubt, nap it out.</h1>
+          <p class="lead">In a world of spikes and crashes, <strong>$NAPPED</strong> embraces the art of relaxation.
+            Kick back, breathe, and let the market do its thing while you recharge.</p>
+          <p>CA: 9XDX2iz6PvTtnSeWt84yRorP3SxjjD2o88Xsc5pspump</p>
+          <div class="cta-row">
+            <a href="https://twitter.com/"
+              class="inline-flex items-center gap-2 font-bold rounded-xl px-5 py-3 bg-[#1DA1F2] text-[#0d1222] hover:brightness-110 transition no-underline">
+              <span>Join the community</span>
+              <span>↗</span>
+            </a>
+            <a class="btn btn-secondary" href="#story">Read the story</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="image.png" alt="$NAPPED mascot" />
+        </div>
+      </div>
+    </section>
+
+    <section id="tweets" class="section" data-reveal data-delay="0.18s">
+      <div class="container">
+        <h2 class="text-center">From the nap feed</h2>
+        <div class="grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-3">
+            <div class="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
+              <blockquote class="twitter-tweet" data-dnt="true">
+                <a href="https://twitter.com/DontShowYourCat/status/1706827995980431540">View tweet</a>
+              </blockquote>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-3">
+            <div
+              class="rounded-xl border border-white/10 bg-white/5 aspect-[4/5] flex items-center justify-center text-center text-[color:var(--muted)]">
+              <blockquote class="twitter-tweet" data-dnt="true">
+                <a href="https://twitter.com/VeryLilFun/status/1957846661868515806">View tweet</a>
+              </blockquote>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-3">
+            <blockquote class="twitter-tweet" data-dnt="true">
+              <a href="https://twitter.com/Catsillyness/status/1893008856004911442">View tweet</a>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="section card" data-reveal data-delay="0.1s">
+      <div class="container narrow">
+        <h2>The $NAPPED story</h2>
+        <p>
+          When the crypto market’s wild ride has you feeling dizzy, sometimes the best move is to hit pause.
+          Welcome to <strong>$NAPPED</strong> – the coin for those who know that sometimes, taking a nap is the smartest
+          strategy.
+        </p>
+        <p>
+          In a world full of sudden spikes and crashes, <strong>$NAPPED</strong> embraces the art of relaxation.
+          It’s about finding peace in the chaos, treating yourself to some well-deserved downtime,
+          and letting the market do its thing while you unwind.
+        </p>
+        <p>
+          Because, in the end, the most important investment you can make is in your own <em>chill vibes</em>.
+        </p>
+      </div>
+    </section>
+
+    <section id="vibes" class="section features" data-reveal data-delay="0.15s">
+      <div class="container">
+        <h2 class="text-center">Cozy vibes only</h2>
+        <div class="grid">
+          <div class="feature">
+            <h3>Soft and simple</h3>
+            <p>Rounded corners, warm gradients, and no stress—designed for restful scrolling.</p>
+          </div>
+          <div class="feature">
+            <h3>Nap-time mode</h3>
+            <p>Auto day/night ambiance with a manual switch when you’re ready to snooze.</p>
+          </div>
+          <div class="feature">
+            <h3>Let it ride</h3>
+            <p>While others chase candles, we chase REM cycles. Serenity is alpha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="naps" class="section" data-reveal data-delay="0.25s">
+      <div class="container">
+        <h2 class="text-center">Nap periods</h2>
+        <div class="grid gap-4 md:grid-cols-3">
+          <div class="nap-card rounded-2xl border border-white/10 overflow-hidden">
+            <div class="aspect-[4/3] w-full border-b border-white/10">
+              <img class="w-full h-full object-cover block nap-img" src="image_desk.png" alt="Power Nap image" />
+            </div>
+            <div class="p-4">
+              <h3 class="m-0 text-lg">Power Nap</h3>
+              <p class="m-0 text-[color:var(--muted)]">Quick reset, strong vibes.</p>
+            </div>
+          </div>
+          <div class="nap-card rounded-2xl border border-white/10 overflow-hidden">
+            <div class="aspect-[4/3] w-full border-b border-white/10">
+              <img class="w-full h-full object-cover block nap-img" src="image_night.png" alt="Deep Sleep image" />
+            </div>
+            <div class="p-4">
+              <h3 class="m-0 text-lg">Deep Sleep</h3>
+              <p class="m-0 text-[color:var(--muted)]">Let the market do its thing.</p>
+            </div>
+          </div>
+          <div class="nap-card rounded-2xl border border-white/10 overflow-hidden">
+            <div class="aspect-[4/3] w-full border-b border-white/10">
+              <img class="w-full h-full object-cover block nap-img" src="image.png" alt="Dreamland image" />
+            </div>
+            <div class="p-4">
+              <h3 class="m-0 text-lg">Dreamland</h3>
+              <p class="m-0 text-[color:var(--muted)]">Wake up refreshed, wagmi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="twitter" class="section" data-reveal data-delay="0.2s">
+      <div class="container">
+        <div
+          class="rounded-2xl border border-white/10 bg-white/5 shadow-[0_10px_40px_rgba(0,0,0,0.35)] p-6 md:p-8 flex flex-col items-center gap-1 md:gap-2 max-w-[720px] mx-auto w-full">
+          <div class="max-w-2xl text-center">
+            <h2 class="text-[clamp(24px,3.6vw,36px)] font-extrabold">Join the Twitter nap crew</h2>
+            <p class="text-[color:var(--muted)] mt-2">Cozy threads, market lullabies, and wholesome nap alpha. Come say
+              hi and tuck in with the $NAPPED community.</p>
+          </div>
+          <a href="https://twitter.com/"
+            class="inline-flex items-center gap-2 font-bold rounded-xl px-5 py-3 bg-[#1DA1F2] text-[#0d1222] hover:brightness-110 transition mt-1 self-center no-underline"
+            aria-label="Join $NAPPED on Twitter">
+            <span>Join the community</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="how" class="section card alt" data-reveal data-delay="0.3s">
+      <div class="container narrow">
+        <h2>How to join</h2>
+        <ol class="steps">
+          <li>Pour a tea, light a candle, put your phone on do-not-disturb.</li>
+          <li>Follow the community links below and say hi.</li>
+          <li>When ready, grab some <strong>$NAPPED</strong> and then take a well-earned nap.</li>
+        </ol>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#" aria-disabled="true">Buy $NAPPED (soon)</a>
+          <a href="https://twitter.com/"
+            class="inline-flex items-center gap-2 font-bold rounded-xl px-5 py-3 bg-[#1DA1F2] text-[#0d1222] hover:brightness-110 transition no-underline">
+            <span>Join the community</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> $NAPPED — nap-first meme coin</span>
+      <span class="dot">•</span>
+      <a href="#story">Story</a>
+      <a href="#how">How</a>
+    </div>
+  </footer>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
